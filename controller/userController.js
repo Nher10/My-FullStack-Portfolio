@@ -1,15 +1,15 @@
-exports.index = function (req, res) {
+exports.index = (req, res) => {
   res.render("frontend/index");
 };
 
-exports.blog = function (req, res) {
+exports.blog = (req, res) => {
   res.render("frontend/blog");
 };
 
-exports.about = function (req, res) {
+exports.about = (req, res) => {
   res.render("frontend/about");
 };
 
-exports.contact = function (req, res) {
+exports.contact = (req, res) => {
   res.render("frontend/contact");
 };
